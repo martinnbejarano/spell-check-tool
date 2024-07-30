@@ -11,10 +11,6 @@ export const ChatBox = () => {
       role: "system",
       text: "Hi! Im a bot that will help you to correct grammar. You can write whatever you want, and I will help you to correct your grammar mistakes",
     },
-    {
-      role: "user",
-      text: "Fix spelling mistakes, confusing grammar, and more with our instant writing feedback.",
-    },
   ]);
 
   const handleForm = async (e) => {

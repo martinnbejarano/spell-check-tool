@@ -1,7 +1,7 @@
 import { CohereClient } from "cohere-ai";
 
 const cohere = new CohereClient({
-  token: import.meta.env.VITE_OPEN_AI_API_KEY,
+  token: import.meta.env.VITE_COHERE_API_KEY,
 });
 
 export async function fixGrammar(text) {
